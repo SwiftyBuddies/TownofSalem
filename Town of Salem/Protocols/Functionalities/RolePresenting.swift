@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+protocol RolePresenting {
+    
+    func present(role: Role)
+    
+}

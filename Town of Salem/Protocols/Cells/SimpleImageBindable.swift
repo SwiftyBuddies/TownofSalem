@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+protocol SimpleImageBindable {
+    
+    var pImageScr: String? { get }
+    
+}

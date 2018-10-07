@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+protocol SimpleImageBinding {
+    
+    func bind(model: SimpleImageBindable)
+    
+}

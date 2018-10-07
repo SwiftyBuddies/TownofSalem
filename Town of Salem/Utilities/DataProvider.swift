@@ -7,3 +7,17 @@
 //
 
 import Foundation
+import RxSwift
+import RxCocoa
+
+class DataProvider {
+    
+    var roles = BehaviorRelay<[Role]>(value: [])
+    
+    static let shared = DataProvider()
+    
+    private init() {
+        
+    }
+    
+}

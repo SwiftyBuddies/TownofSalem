@@ -8,11 +8,17 @@
 
 import Foundation
 
-struct Role {
+class Role {
     
     var name: String?
     var desc: String?
     var imageSrc: String?
+    
+    init(name: String? = nil, desc: String? = nil, imageSrc: String? = nil) {
+        self.name = name
+        self.desc = desc
+        self.imageSrc = imageSrc
+    }
     
 }
 

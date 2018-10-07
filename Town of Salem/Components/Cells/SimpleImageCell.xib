@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SimpleImageCell" id="dYf-dT-HhS" customClass="SimpleImageCell">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SimpleImageCell" id="dYf-dT-HhS" customClass="SimpleImageCell" customModule="Town_of_Salem" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="131" height="128"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -20,7 +21,18 @@
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jXM-06-enf">
                         <rect key="frame" x="0.0" y="0.0" width="131" height="128"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LtF-dd-ata">
+                                <rect key="frame" x="0.0" y="0.0" width="131" height="128"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LtF-dd-ata" firstAttribute="top" secondItem="jXM-06-enf" secondAttribute="top" id="9Lg-pq-Ac1"/>
+                            <constraint firstItem="LtF-dd-ata" firstAttribute="leading" secondItem="jXM-06-enf" secondAttribute="leading" id="CkM-QW-wXe"/>
+                            <constraint firstAttribute="bottom" secondItem="LtF-dd-ata" secondAttribute="bottom" id="JiH-0o-n3C"/>
+                            <constraint firstAttribute="trailing" secondItem="LtF-dd-ata" secondAttribute="trailing" id="cvj-w2-Ec8"/>
+                        </constraints>
                     </view>
                 </subviews>
             </view>
@@ -32,6 +44,10 @@
             </constraints>
             <viewLayoutGuide key="safeArea" id="Wdl-2r-sOE"/>
             <size key="customSize" width="131" height="128"/>
+            <connections>
+                <outlet property="containerView" destination="jXM-06-enf" id="Wl2-0N-YKt"/>
+                <outlet property="imageView" destination="LtF-dd-ata" id="Zua-cr-GCS"/>
+            </connections>
             <point key="canvasLocation" x="287.5" y="-172"/>
         </collectionViewCell>
     </objects>

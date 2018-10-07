@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04A6A4754E052A30E2740D96 /* Pods_Town_of_Salem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DDF87168A08342522B1356 /* Pods_Town_of_Salem.framework */; };
 		542DCACC216A6F460070F98A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542DCACB216A6F460070F98A /* AppDelegate.swift */; };
 		542DCAD1216A6F460070F98A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542DCACF216A6F460070F98A /* Main.storyboard */; };
 		542DCAD3216A6F490070F98A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 542DCAD2216A6F490070F98A /* Assets.xcassets */; };
 		542DCAD6216A6F490070F98A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542DCAD4216A6F490070F98A /* LaunchScreen.storyboard */; };
+		542DCADF216A77C20070F98A /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542DCADE216A77C20070F98A /* IntroductionViewController.swift */; };
+		542DCAE6216A7B270070F98A /* SimpleImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542DCAE4216A7B270070F98A /* SimpleImageCell.swift */; };
+		542DCAE7216A7B270070F98A /* SimpleImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 542DCAE5216A7B270070F98A /* SimpleImageCell.xib */; };
+		542DCAED216A7D980070F98A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542DCAEC216A7D980070F98A /* Constants.swift */; };
+		542DCAEF216A7E660070F98A /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542DCAEE216A7E660070F98A /* DataProvider.swift */; };
+		542DCAF6216A80E60070F98A /* SimpleImageBindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542DCAF5216A80E60070F98A /* SimpleImageBindable.swift */; };
+		542DCAF8216A81770070F98A /* SimpleImageBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542DCAF7216A81770070F98A /* SimpleImageBinding.swift */; };
+		542DCAFA216A82210070F98A /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542DCAF9216A82210070F98A /* Role.swift */; };
+		542DCAFD216A845D0070F98A /* RoleCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542DCAFC216A845D0070F98A /* RoleCreator.swift */; };
+		542DCB04216A896B0070F98A /* RolePresenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542DCB03216A896B0070F98A /* RolePresenting.swift */; };
+		542DCB07216A8BF00070F98A /* BLACC___.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 542DCB05216A8BF00070F98A /* BLACC___.TTF */; };
+		542DCB08216A8BF00070F98A /* BLACCS__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 542DCB06216A8BF00070F98A /* BLACCS__.TTF */; };
+		5E12FD4C7F8C47DBADD49A6C /* Pods_Town_of_Salem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7904F11ABBA57A3A04FF7BED /* Pods_Town_of_Salem.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00932EA1637FBE2EA8E41989 /* Pods-Town of Salem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Town of Salem.release.xcconfig"; path = "Pods/Target Support Files/Pods-Town of Salem/Pods-Town of Salem.release.xcconfig"; sourceTree = "<group>"; };
-		01DDF87168A08342522B1356 /* Pods_Town_of_Salem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Town_of_Salem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B7B0CEC38907F22DCDDC066 /* Pods-Town of Salem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Town of Salem.release.xcconfig"; path = "Pods/Target Support Files/Pods-Town of Salem/Pods-Town of Salem.release.xcconfig"; sourceTree = "<group>"; };
+		2E56D83BE8990678D9975ABE /* Pods-Town of Salem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Town of Salem.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Town of Salem/Pods-Town of Salem.debug.xcconfig"; sourceTree = "<group>"; };
 		542DCAC8216A6F460070F98A /* Town of Salem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Town of Salem.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		542DCACB216A6F460070F98A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		542DCAD0216A6F460070F98A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		542DCAD2216A6F490070F98A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		542DCAD5216A6F490070F98A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		542DCAD7216A6F490070F98A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B70B875C41584F34EDF9D5F /* Pods-Town of Salem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Town of Salem.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Town of Salem/Pods-Town of Salem.debug.xcconfig"; sourceTree = "<group>"; };
+		542DCADE216A77C20070F98A /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
+		542DCAE4216A7B270070F98A /* SimpleImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleImageCell.swift; sourceTree = "<group>"; };
+		542DCAE5216A7B270070F98A /* SimpleImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleImageCell.xib; sourceTree = "<group>"; };
+		542DCAEC216A7D980070F98A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		542DCAEE216A7E660070F98A /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		542DCAF5216A80E60070F98A /* SimpleImageBindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleImageBindable.swift; sourceTree = "<group>"; };
+		542DCAF7216A81770070F98A /* SimpleImageBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleImageBinding.swift; sourceTree = "<group>"; };
+		542DCAF9216A82210070F98A /* Role.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
+		542DCAFC216A845D0070F98A /* RoleCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleCreator.swift; sourceTree = "<group>"; };
+		542DCB03216A896B0070F98A /* RolePresenting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolePresenting.swift; sourceTree = "<group>"; };
+		542DCB05216A8BF00070F98A /* BLACC___.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BLACC___.TTF"; sourceTree = "<group>"; };
+		542DCB06216A8BF00070F98A /* BLACCS__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = BLACCS__.TTF; sourceTree = "<group>"; };
+		7904F11ABBA57A3A04FF7BED /* Pods_Town_of_Salem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Town_of_Salem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,20 +55,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A6A4754E052A30E2740D96 /* Pods_Town_of_Salem.framework in Frameworks */,
+				5E12FD4C7F8C47DBADD49A6C /* Pods_Town_of_Salem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C42FBDE0CBDB5D1F721CCCF /* Pods */ = {
+		456A81FF9E9296EDE844ACF0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8B70B875C41584F34EDF9D5F /* Pods-Town of Salem.debug.xcconfig */,
-				00932EA1637FBE2EA8E41989 /* Pods-Town of Salem.release.xcconfig */,
+				7904F11ABBA57A3A04FF7BED /* Pods_Town_of_Salem.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		542DCABF216A6F460070F98A = {
@@ -52,8 +75,8 @@
 			children = (
 				542DCACA216A6F460070F98A /* Town of Salem */,
 				542DCAC9216A6F460070F98A /* Products */,
-				0C42FBDE0CBDB5D1F721CCCF /* Pods */,
-				E503194F688925E2F429D50E /* Frameworks */,
+				680250DF0972AF53A63273CB /* Pods */,
+				456A81FF9E9296EDE844ACF0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,21 +91,122 @@
 		542DCACA216A6F460070F98A /* Town of Salem */ = {
 			isa = PBXGroup;
 			children = (
+				542DCAEB216A7D680070F98A /* Utilities */,
+				542DCADD216A779E0070F98A /* Introduction */,
+				542DCAE3216A7A490070F98A /* Protocols */,
+				542DCAE0216A77E10070F98A /* Components */,
+				542DCAE8216A7B420070F98A /* Models */,
 				542DCACB216A6F460070F98A /* AppDelegate.swift */,
 				542DCACF216A6F460070F98A /* Main.storyboard */,
 				542DCAD2216A6F490070F98A /* Assets.xcassets */,
 				542DCAD4216A6F490070F98A /* LaunchScreen.storyboard */,
 				542DCAD7216A6F490070F98A /* Info.plist */,
+				542DCB05216A8BF00070F98A /* BLACC___.TTF */,
+				542DCB06216A8BF00070F98A /* BLACCS__.TTF */,
 			);
 			path = "Town of Salem";
 			sourceTree = "<group>";
 		};
-		E503194F688925E2F429D50E /* Frameworks */ = {
+		542DCADD216A779E0070F98A /* Introduction */ = {
 			isa = PBXGroup;
 			children = (
-				01DDF87168A08342522B1356 /* Pods_Town_of_Salem.framework */,
+				542DCADE216A77C20070F98A /* IntroductionViewController.swift */,
 			);
-			name = Frameworks;
+			path = Introduction;
+			sourceTree = "<group>";
+		};
+		542DCAE0216A77E10070F98A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				542DCAE2216A78000070F98A /* Cells */,
+				542DCAE1216A77F80070F98A /* Views */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		542DCAE1216A77F80070F98A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		542DCAE2216A78000070F98A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				542DCAE4216A7B270070F98A /* SimpleImageCell.swift */,
+				542DCAE5216A7B270070F98A /* SimpleImageCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		542DCAE3216A7A490070F98A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				542DCB00216A892F0070F98A /* Functionalities */,
+				542DCAF4216A80CB0070F98A /* Cells */,
+				542DCAF3216A80BC0070F98A /* Views */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		542DCAE8216A7B420070F98A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				542DCAF9216A82210070F98A /* Role.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		542DCAEB216A7D680070F98A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				542DCAFB216A84440070F98A /* Helpers */,
+				542DCAEC216A7D980070F98A /* Constants.swift */,
+				542DCAEE216A7E660070F98A /* DataProvider.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		542DCAF3216A80BC0070F98A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		542DCAF4216A80CB0070F98A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				542DCAF5216A80E60070F98A /* SimpleImageBindable.swift */,
+				542DCAF7216A81770070F98A /* SimpleImageBinding.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		542DCAFB216A84440070F98A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				542DCAFC216A845D0070F98A /* RoleCreator.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		542DCB00216A892F0070F98A /* Functionalities */ = {
+			isa = PBXGroup;
+			children = (
+				542DCB03216A896B0070F98A /* RolePresenting.swift */,
+			);
+			path = Functionalities;
+			sourceTree = "<group>";
+		};
+		680250DF0972AF53A63273CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E56D83BE8990678D9975ABE /* Pods-Town of Salem.debug.xcconfig */,
+				0B7B0CEC38907F22DCDDC066 /* Pods-Town of Salem.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,11 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 542DCADA216A6F490070F98A /* Build configuration list for PBXNativeTarget "Town of Salem" */;
 			buildPhases = (
-				BAC1BC3809F19348499B9E68 /* [CP] Check Pods Manifest.lock */,
+				20A9562D0201B935A946AA0D /* [CP] Check Pods Manifest.lock */,
 				542DCAC4216A6F460070F98A /* Sources */,
 				542DCAC5216A6F460070F98A /* Frameworks */,
 				542DCAC6216A6F460070F98A /* Resources */,
-				6EB37C3432F842D12722D65A /* [CP] Embed Pods Frameworks */,
+				7797AE72819E6CFE2EAE457E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -146,15 +270,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				542DCAD6216A6F490070F98A /* LaunchScreen.storyboard in Resources */,
+				542DCAE7216A7B270070F98A /* SimpleImageCell.xib in Resources */,
+				542DCB08216A8BF00070F98A /* BLACCS__.TTF in Resources */,
 				542DCAD3216A6F490070F98A /* Assets.xcassets in Resources */,
 				542DCAD1216A6F460070F98A /* Main.storyboard in Resources */,
+				542DCB07216A8BF00070F98A /* BLACC___.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6EB37C3432F842D12722D65A /* [CP] Embed Pods Frameworks */ = {
+		20A9562D0201B935A946AA0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Town of Salem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7797AE72819E6CFE2EAE457E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -190,28 +339,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Town of Salem/Pods-Town of Salem-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BAC1BC3809F19348499B9E68 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Town of Salem-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -219,7 +346,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				542DCAEF216A7E660070F98A /* DataProvider.swift in Sources */,
+				542DCAFD216A845D0070F98A /* RoleCreator.swift in Sources */,
+				542DCAED216A7D980070F98A /* Constants.swift in Sources */,
+				542DCAE6216A7B270070F98A /* SimpleImageCell.swift in Sources */,
+				542DCAF8216A81770070F98A /* SimpleImageBinding.swift in Sources */,
+				542DCAF6216A80E60070F98A /* SimpleImageBindable.swift in Sources */,
+				542DCB04216A896B0070F98A /* RolePresenting.swift in Sources */,
+				542DCADF216A77C20070F98A /* IntroductionViewController.swift in Sources */,
 				542DCACC216A6F460070F98A /* AppDelegate.swift in Sources */,
+				542DCAFA216A82210070F98A /* Role.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +499,7 @@
 		};
 		542DCADB216A6F490070F98A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B70B875C41584F34EDF9D5F /* Pods-Town of Salem.debug.xcconfig */;
+			baseConfigurationReference = 2E56D83BE8990678D9975ABE /* Pods-Town of Salem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -383,7 +519,7 @@
 		};
 		542DCADC216A6F490070F98A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00932EA1637FBE2EA8E41989 /* Pods-Town of Salem.release.xcconfig */;
+			baseConfigurationReference = 0B7B0CEC38907F22DCDDC066 /* Pods-Town of Salem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -10,6 +10,7 @@ import UIKit
 
 class SimpleImageCell: UICollectionViewCell {
 
+    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak private var containerView: UIView!
 
     //You do not change these methods
@@ -34,4 +35,12 @@ class SimpleImageCell: UICollectionViewCell {
         super.draw(rect)
     }
 
+}
+
+extension SimpleImageCell: SimpleImageBinding {
+    
+    func bind(model: SimpleImageBindable) {
+        self.imageView.image = UIImage(named: model.pImageScr ?? "")
+    }
+    
 }
