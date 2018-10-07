@@ -1,0 +1,6 @@
+framework module Pods_Town_of_Salem {
+  umbrella header "Pods-Town of Salem-umbrella.h"
+
+  export *
+  module * { export * }
+}
